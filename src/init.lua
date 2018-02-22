@@ -1,6 +1,8 @@
+local require = require
 local dbmt = require ((...)..".dbmt" )
 
-local socket = ngx and ngx.socket.tcp or require 'socket'.tcp
+-- local socket = ngx and ngx.socket.tcp or require 'socket'.tcp
+local socket = require("socket").tcp
 
 local function parse_host(str)
   local host, port = str:match ( "([^:]+):?(%d*)" )

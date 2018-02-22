@@ -1,15 +1,12 @@
-package = "resty-mongol"
-version = "0.8-4"
+package = "wtf-fork-resty-mongol"
+version = "0.1-1"
 source = {
-  url = "https://github.com/Olivine-Labs/resty-mongol/archive/v0.8.tar.gz",
-  dir = "resty-mongol-0.8"
+  url = "git+https://github.com/honeybot/wtf-fork-resty-mongol",
+  tag = "0.1"
 }
 description = {
-  summary = "Mongo driver for openresty.",
-  detailed = [[
-  ]],
-  homepage = "",
-  license = "MIT <http://opensource.org/licenses/MIT>"
+  homepage = "https://github.com/honeybot/wtf-fork-resty-mongol",
+  license = "MIT"
 }
 dependencies = {
   "lua >= 5.1",
